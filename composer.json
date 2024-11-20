@@ -6,8 +6,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mohamed Yahya",
-            "email": "ulearnpro@gmail.com"
+            "name": "kamal",
+            "email": "kamal098@gmail.com"
         }
     ],
     "require": {
@@ -33,7 +33,11 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "php-http/discovery": true
+        }
     },
     "extra": {
         "laravel": {

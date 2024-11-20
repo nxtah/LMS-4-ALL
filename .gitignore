@@ -1,0 +1,25 @@
+# Laravel Directories
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Environment Files
+.env
+.env.*
+
+# Cache & Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE Specific
+.idea/
+.vscode/
+
+# Other
+*.log
+*.bak
+*.swp
